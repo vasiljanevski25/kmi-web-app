@@ -69,6 +69,63 @@ export default function KMIWebsite() {
         </div>
       </section>
 
+      {/* STRUCTURE SECTION */}
+      <section id="structure" className="py-24 px-4 section-alt">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-foreground mb-16">Структура</h2>
+          
+          <div className="flex flex-col items-center gap-6">
+            {/* Претседател */}
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
+              <div className="rounded-2xl border border-border bg-card p-6 text-center min-w-[280px] card-hover">
+                <p className="text-sm text-accent font-medium mb-1">Претседател</p>
+                <p className="font-display text-lg font-bold text-foreground">Емилија Наумоска</p>
+              </div>
+            </motion.div>
+
+            <div className="w-px h-6 bg-border" />
+
+            {/* Потпретседател */}
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }}>
+              <div className="rounded-2xl border border-border bg-card p-6 text-center min-w-[320px] card-hover">
+                <p className="text-sm text-accent font-medium mb-1">Потпретседател</p>
+                <p className="font-display text-lg font-bold text-foreground">Стојана Меган Милошевска</p>
+              </div>
+            </motion.div>
+
+            <div className="w-px h-6 bg-border" />
+
+            {/* Генерален секретар */}
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }}>
+              <div className="rounded-2xl border border-border bg-card p-6 text-center min-w-[320px] card-hover">
+                <p className="text-sm text-accent font-medium mb-1">Генерален секретар</p>
+                <p className="font-display text-lg font-bold text-foreground">Милош Милошевиќ</p>
+              </div>
+            </motion.div>
+
+            <div className="w-px h-6 bg-border" />
+
+            {/* Координатори */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-3xl">
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.3 }}>
+                <div className="rounded-2xl border border-border bg-card p-6 text-center card-hover h-full">
+                  <p className="text-sm text-accent font-medium mb-1">Координатори за настани</p>
+                  <p className="font-display text-lg font-bold text-foreground">Васил Јаневски</p>
+                  <p className="font-display text-lg font-bold text-foreground">Стефан Мерџаноски</p>
+                </div>
+              </motion.div>
+              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.4 }}>
+                <div className="rounded-2xl border border-border bg-card p-6 text-center card-hover h-full">
+                  <p className="text-sm text-accent font-medium mb-1">Координатори за односи со јавност</p>
+                  <p className="font-display text-lg font-bold text-foreground">Јелена Ѓошиќ</p>
+                  <p className="font-display text-lg font-bold text-foreground">Марта Попоска</p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* EVENTS SECTION */}
       <section id="events" className="py-24 px-4 section-alt">
         <div className="max-w-6xl mx-auto">
