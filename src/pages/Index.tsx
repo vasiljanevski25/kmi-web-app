@@ -104,7 +104,7 @@ export default function KMIWebsite() {
           {" | "}
           <a href="https://www.instagram.com/kmi.imi/" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">Instagram</a>
           {" | "}
-          <a href="mailto:info@kmi.mk" className="hover:text-primary-foreground transition-colors">Контакт: info@kmi.mk</a>
+          <a href="https://www.kmi.mk" target="_blank" rel="noopener noreferrer" className="hover:text-primary-foreground transition-colors">Контакт: www.kmi.mk</a>
         </p>
       </footer>
     </div>
