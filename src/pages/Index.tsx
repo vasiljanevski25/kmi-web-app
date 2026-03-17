@@ -132,7 +132,6 @@ export default function KMIWebsite() {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-center text-foreground mb-12">Настани</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
-              { title: "Настан 8ми Март – Жени во инженерството", meta: "Март 2026", desc: "Настан посветен на улогата и придонесот на жените во инженерската професија." },
               { title: "Настан во склоп на Денот на македонски инженери", meta: "Март 2026", desc: "Одбележување на Денот на македонски инженери со стручни предавања и вмрежување." },
               { title: "ЕВН Камп", meta: "Април 2026", desc: "Практичен камп организиран во соработка со ЕВН за млади инженери." },
               { title: "Европска конференција организирана од EYE", meta: "2026", desc: "Меѓународна конференција организирана од European Young Engineers (EYE)." },
